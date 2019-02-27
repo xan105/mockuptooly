@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Anthony Beaumont" />
+        <meta name="title" content="Mockup Tool/Generator" />
+        <meta name="description" content="Mockup Tool/Generator. Create mockup photos for your store, all in one go. T-shirt, sweaters and more." />
+        <title>Mockup Tool/Generator</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="resources/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resources/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resources/icon/favicon-16x16.png">
+        <link rel="manifest" href="resources/icon/manifest.json">
+        <link rel="mask-icon" href="resources/icon/safari-pinned-tab.svg" color="#525252">
+        <link rel="shortcut icon" href="resources/icon/favicon.ico">
+        <meta name="msapplication-config" content="resources/icon/browserconfig.xml">
+        <meta name="theme-color" content="#fafafa">
+        <link rel="stylesheet" type="text/css" href="resources/css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/lib.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/default.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/template.css" />
+    </head>
+<body>
+<header class="noselect">
+  <div class="ribbon green"><span>BETA</span></div>
+  
+  <div id="header-top">
+    <div id="logo" class="vcenter"><span id="logoTitle" class="vcenter"></span><span id="logoSubTitle" class="vcenter">Mockup Tooly</span></div>
+    <div id="social-button" class="vcenter">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//mockuptooly.com" target="_blank" class="share facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i> <span>Share on Facebook</span></a>
+      <a href="https://twitter.com/home?status=https%3A//mockuptooly.com%0A%0AMockup%20Tool/Generator.%20Create%20mockup%20photos%20for%20your%20store,%20all%20in%20one%20go.%20T-shirt,%20sweaters%20and%20more.%20" target="_blank" class="share twitter"><i class="fa fa-twitter" aria-hidden="true"></i> <span>Share on Twitter</span></a>
+    </div>
+  </div>
+  <div id="header-bottom">
+    <p>Mockup Tool/Generator. Create mockup photos for your store, all in one go. T-shirt, sweaters and more. </p>
+    <!--<div id="fb-login" onclick="alert('Coming Soon. Stay tuned !');"></div>-->
+  </div>
+
+</header>
+
+<main id="main">
+<aside id="side-panel" class="noselect">
+
+    <div class="side-panel-header"><p class="title slide active">Filters</p><span id="side-panel-reset">Default</span></div>
+    
+    
+<div id="sliders">
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label sharpen">Sharpen</p><p class="slider-value">10</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">A simple convolution filter similar to the one photoshop uses after downscaling an image. Increase the value to sharpen the image.</div>
+    </span>
+  </div>
+  <input id="sharpenLevel" class="range" type="range" value="10" min="0" max="100" step="1" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label invert">Invert</p><p class="slider-value">0</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">This filter gradually inverts all the colors.</div>
+    </span>    
+  </div>
+  <input id="invertLevel" class="range" type="range" value="0" min="0" max="100" step="1" autocomplete="off">
+ </div>
+ 
+  <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label brightness">Brightness</p><p class="slider-value">100</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">Applies a linear multiplier making it appear more or less bright.</div>
+    </span>
+  </div>
+  <input id="brightLevel" class="range" type="range" value="100" min="0" max="200" step="10" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label contrast">Contrast</p><p class="slider-value">100</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">Adjusts the contrast.<br />This filter controls the difference between dark and light parts.</div>
+    </span>
+  </div>
+  <input id="contrastLevel" class="range" type="range" value="100" min="0" max="200" step="10" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label saturate">Saturate</p><p class="slider-value">100</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">This filter controls the saturation of colors.<br />Supersaturated over 100% and remove all colors at 0%.</div>
+    </span>
+  </div>
+  <input id="saturateLevel" class="range" type="range" value="100" min="0" max="200" step="10" autocomplete="off">
+ </div>
+ 
+  <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label grayscale">Grayscale</p><p class="slider-value">0</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">Also known as black and white.<br />This filter gradually converts all the colors to some shade of gray.</div>
+    </span>
+  </div>
+  <input id="grayscaleLevel" class="range" type="range" value="0" min="0" max="100" step="1" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label hue">Hue rotate</p><p class="slider-value">0</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">This filter applies a hue-rotation to all the colors.</div>
+    </span>
+  </div>
+  <input id="hueLevel" class="range" type="range" value="0" min="0" max="360" step="10" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label opacity">Opacity</p><p class="slider-value">100</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">This filter will apply transparency.<br />Opaque at 100% and fully transparent at 0%.</div>
+    </span>
+  </div>
+  <input id="opacityLevel" class="range" type="range" value="100" min="0" max="100" step="1" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label blur">Blur</p><p class="slider-value">0</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">Applies a Gaussian blur. The value defines how many pixels on the screen blend into each other, so a larger value will create more blur.</div>
+    </span>
+  </div>
+  <input id="blurLevel" class="range" type="range" value="0" min="0" max="10" step="1" autocomplete="off">
+ </div>
+ 
+ <div class="slider">
+  <div class="slider-content">
+    <p class="slider-label sepia">Sepia</p><p class="slider-value">0</p>
+    <span class="help"><i class="fa fa-question-circle" aria-hidden="true"></i>
+      <div class="description">This filter gradually adds a sepia tinge like in some old photographs.</div>
+    </span>
+  </div>
+  <input id="sepiaLevel" class="range" type="range" value="0" min="0" max="100" step="1" autocomplete="off">
+ </div>
+</div> 
+ 
+ <div class="side-panel-header"><p class="title slide active nowait">Flip</p></div>
+ 
+ <div id="flip-control">
+   <input type="radio" name="flip" id="flip-none" class="flip" value="n" checked autocomplete="off">
+   <label for="flip-none" class="radio"><i></i><span>None</span></label> 
+   
+   <input type="radio" name="flip" id="flip-h" class="flip" value="h" autocomplete="off">
+   <label for="flip-h" class="radio"><i></i><span>Horizontal</span></label> 
+   
+   <input type="radio" name="flip" id="flip-v" class="flip" value="v" autocomplete="off">
+   <label for="flip-v" class="radio"><i></i><span>Vertical</span></label>
+   
+   <input type="radio" name="flip" id="flip-both" class="flip" value="b" autocomplete="off">
+   <label for="flip-both" class="radio"><i></i><span>Both</span></label>
+ </div>
+    
+</aside>
+
+<div id="wrapper"> 
+
+<div id="buttons" class="noselect">
+  <div class="btn blue modal-trigger" data-modal="img-uploader"><i class="fa fa-cloud-upload" aria-hidden="true"></i> Upload an image</div>
+  <div class="btn blue disable"><div class="modal-trigger" data-modal="download"><i class="fa fa-download" aria-hidden="true"></i> Download Mockup</div></div>
+  <!--<div class="btn red" onclick="alert('Coming soon !');"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>-->
+</div>
+
+<p id="feedback"><i class="fa fa-comment-o fa-flip-horizontal" aria-hidden="true"></i> <a href="https://github.com/xan105/mockuptooly/issues" target="_blank">Help us improve this tool</a></p>
+
+<div id="container">
+
+<div id="mockup-tool" class="noselect">
+  <fieldset>
+  <legend>Template:</legend>
+  <label for="category">Category: </label>
+  <div class="dropdown">
+    <select id="category" name="category" autocomplete="off">
+      <option value="shirt" data-sublevel="variant-shirt">Shirt</option>
+      <option value="hoodies" data-sublevel="variant-hoodies">Hoodies</option>
+      <option value="polo" data-sublevel="variant-polo">Polo</option>
+      <option value="cap" data-sublevel="variant-cap">Cap</option>
+    </select>
+  </div>
+
+  <label for="variant-shirt" class="type default">Type: </label>
+  <div class="dropdown">
+    <select id="variant-shirt" autocomplete="off">
+      <optgroup label="Man">
+        <option value="man">Regular</option>
+        <option value="man-long-sleeves">Long Sleeves</option>
+        <option value="man-sleevesless">Sleeves less</option>
+        <option value="man-tank">Tank</option>
+        <option value="man-v-neck">V-Neck</option>
+      </optgroup> 
+      <optgroup label="Woman">
+        <option value="woman">Regular</option>
+      </optgroup>
+      <optgroup label="Kid">
+        <option value="kid">Regular</option>
+      </optgroup>
+    </select>
+  </div>
+
+  <label for="variant-polo" class="type">Type: </label>
+  <div class="dropdown">
+  <select id="variant-polo" autocomplete="off">
+      <option value="regular">Regular</option>
+  </select>
+  </div>
+
+  <label for="variant-cap" class="type">Type: </label>
+  <div class="dropdown">
+  <select id="variant-cap" autocomplete="off">
+      <option value="classic">Classic</option>
+  </select>
+  </div>
+
+  <label for="variant-hoodies" class="type">Type: </label>
+  <div class="dropdown">
+  <select id="variant-hoodies" autocomplete="off">
+      <option value="nocord">Without cord</option>
+  </select>
+  </div>
+
+  </fieldset>
+
+  <div id="template-box">
+    <div id="template-box-overlay"><div class="loading"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><p>Loading...</p></div></div>
+    <div id="tool-box">
+      <ul>
+        <li id="center-both"><i class="fa fa-arrows" aria-hidden="true"></i><div class="description">Center</div></li>
+        <li id="center-v"><i class="fa fa-arrows-v" aria-hidden="true"></i><div class="description">Center Vertically</div></li>
+        <li id="center-h"><i class="fa fa-arrows-h" aria-hidden="true"></i><div class="description">Center Horizontally</div></li>
+        <li id="magic-eraser"><div class="description">Magic Eraser</div></li>
+      </ul>
+    </div>
+    <div id="front-back-switch"><span class="noselect">Front</span></div>
+    <div id="template" class="cat-shirt type-man view-front color-black" data-not-found="We don't have a template for&#xa;this set of color/apparel.&#xa;Try with another color.">
+      <div id="printable-area" class="no-border">
+        <div id="max-print-size" class="border center-h">
+          <div id="max-print-size-move" class="noselect"><i class="fa fa-arrows" aria-hidden="true"></i></div>
+          <span id="max-print-size-label" class="noselect">maximum print size</span>
+              <div id="design-wrapper" class="center-b">
+                <canvas id="design" width="0" height="0"></canvas>
+                <div id="design-resize-handler" class="design-tool"><i class="fa fa-expand fa-flip-horizontal" aria-hidden="true"></i></div>
+                <div id="design-delete" class="design-tool"><i class="fa fa-trash" aria-hidden="true"></i></div>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div id="color-wheel">
+      <div class="current-color-indicator"></div>
+      <span class="noselect">Color</span>
+      <div id="color-selection" class="noselect">
+        <div class="title">Choose a color:</div>
+          <ul>
+            <li class="color-box black" data-color="black"><div class="description">Black</div></li>
+            <li class="color-box brown" data-color="brown"><div class="description">Brown</div></li>
+            <li class="color-box green" data-color="green"><div class="description">Green</div></li>
+            <li class="color-box grey" data-color="grey"><div class="description">Grey</div></li>
+            <li class="color-box light-blue" data-color="light-blue"><div class="description">Light Blue</div></li>
+            <li class="color-box navy-blue" data-color="navy-blue"><div class="description">Navy Blue</div></li>
+            <li class="color-box orange" data-color="orange"><div class="description">Orange</div></li>
+            <li class="color-box pink" data-color="pink"><div class="description">Pink</div></li>
+            <li class="color-box purple" data-color="purple"><div class="description">Purple</div></li>
+            <li class="color-box red" data-color="red"><div class="description">Red</div></li>
+            <li class="color-box royal-blue" data-color="royal-blue"><div class="description">Royal Blue</div></li>
+            <li class="color-box white" data-color="white"><div class="description">White</div></li>
+            <li class="color-box yellow" data-color="yellow"><div class="description">Yellow</div></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="toggles">
+    <div class="toggle-l">
+      <input class="checkbox-toggle checkbox-toggle-skewed" id="showPrintArea" type="checkbox" autocomplete="off"/>
+          <label class="checkbox-toggle-btn" for="showPrintArea"  data-off="HIDE" data-on="SHOW" ></label>
+    <span class="label">Printable Area</span>
+    </div>
+        
+    <div class="toggle-r">       
+      <input class="checkbox-toggle checkbox-toggle-skewed" id="showMaxPrintArea" type="checkbox" autocomplete="off"/>
+          <label class="checkbox-toggle-btn" for="showMaxPrintArea"  data-off="SHOW" data-on="FORCE"></label>
+    <span class="label">Maximun Print Size</span> 
+    </div>
+
+
+  </div>
+</div>
+
+</div>
+</div>
+</main>
+<footer>
+  <div class="content-wrap">
+    <!--<div class="content-left">
+      <ul>
+        <li>About</li>
+        <li>Upload rules</li>
+        <li>Privacy & Policy</li>
+        <li>Copyright</li>
+      </ul>
+    </div>-->
+
+    <!--<div class="content-center">
+      <ul>
+        <li>Store</li>
+        <li><a href="#" target="_blank">Placeholder</a></li>
+        <li><a href="#" onclick="alert('Coming Soon. Stay tuned !');">Sell your design</a></li>
+      </ul>
+    </div>-->
+
+    <div class="content-right" style="margin: 0 auto;">
+      <p>© A. Beaumont, 2017-2018</p>
+      <p>Made with <i class="fa fa-heart" aria-hidden="true"></i></p>
+    </div>
+  </div>
+</footer>
+
+<div id="popup"><div id="popup_close_button"><i class="fa fa-times-circle-o" aria-hidden="true"></i></div>
+  <div id="popup_container">
+      <div id="popup_header" class="noselect"><span id="popup_header_title"></span></div>
+      <div id="popup_content">
+    
+  <div id="popup_img-uploader" class="popup" data-title="Upload an Image">
+    <label for="input-design">
+     <div id="img-drop-zone" class="noselect">
+     <div class="loading"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><p>Loading...</p><p id="fileIsTooSmall" class="red"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span class="bold">Your file is way too small !</span></p></div>
+     <div class="notice">
+        <p>Drag & drop your image here or click to select from drive.</p>
+        <p class="green"><i class="fa fa-file-image-o" aria-hidden="true"></i> We only accept <span class="bold">.png</span>, <span class="bold">.jpg/jpeg</span>, <span class="bold">.gif</span> and <span class="bold">.svg</span>.</p>
+        <p class="red"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> <span class="bold">We do not store your file(s) on our servers</span>.</p>
+        <p><i class="fa fa-gavel" aria-hidden="true"></i> By uploading an image you agree to the <a href="#" target="_blank">Upload Rules</a>.</p>
+     </div>
+    </div>
+    </label>
+    <input type='file' id="input-design" name="design-upload"/>
+  <p class="info"><i class="fa fa-info-circle" aria-hidden="true"></i> Although for a mockup it doesn't really matter but if you wish to print your design then for best quality result we recommend that your design be at <span class="bold">300 DPI</span> targeting a size of <span class="bold">14x17"</span>.</p>
+  </div>
+  
+  <div id="popup_download" class="popup" data-title="Download your mockup">
+
+   <p>Please select which of the following file format you would like to download:</p> 
+   <div id="download-options" class="noselect">
+   
+   <div id="download-options-jpg"><input type="checkbox" id="image-format-jpg" value="jpg" autocomplete="off"><label for="image-format-jpg"><span class="ui"></span><span class="text-ui"><span class="bold">.jpg</span></span></label>
+     <div id="jpg-quality-options">
+       <input type="radio" name="jpg-quality" id="jpg-quality-low" value="low" autocomplete="off">
+       <label for="jpg-quality-low" class="radio"><i></i><span>Low</span></label>
+       <input type="radio" name="jpg-quality" id="jpg-quality-medium" value="medium" autocomplete="off">
+       <label for="jpg-quality-medium" class="radio"><i></i><span>Medium</span></label>
+       <input type="radio" name="jpg-quality" id="jpg-quality-high" value="high" checked autocomplete="off">
+       <label for="jpg-quality-high" class="radio"><i></i><span>High</span></label>
+     </div>
+     <div class="dot"></div>
+   </div>
+   
+   <input type="checkbox" id="image-format-png" value="png" checked autocomplete="off"><label for="image-format-png"><span class="ui"></span><span class="text-ui"><span class="bold">.png</span> (Recommended)</span></label>
+   
+   <input type="checkbox" id="image-format-svg" value="svg" autocomplete="off"><label for="image-format-svg"><span class="ui"></span><span class="text-ui"><span class="bold">.svg</span></span></label>
+   
+   <div id="download-options-webp"><input type="checkbox" id="image-format-webp" value="webp" autocomplete="off"><label for="image-format-webp"><span class="ui"></span><span class="text-ui"><span class="bold">.webp</span></span></label>
+     <div id="webp-quality-options">
+       <input type="radio" name="webp-quality" id="webp-quality-low" value="low" autocomplete="off">
+       <label for="webp-quality-low" class="radio"><i></i><span>Low</span></label>
+       <input type="radio" name="webp-quality" id="webp-quality-medium" value="medium" autocomplete="off">
+       <label for="webp-quality-medium" class="radio"><i></i><span>Medium</span></label>
+       <input type="radio" name="webp-quality" id="webp-quality-high" value="high" checked autocomplete="off">
+       <label for="webp-quality-high" class="radio"><i></i><span>High</span></label>
+     </div>
+     <div class="dot"></div>
+   </div>
+   
+   
+   </div>
+    
+    <div id="download-btn" class="btn blue noselect">Download</div>
+    
+  </div>
+  
+  
+  
+  <div id="popup_magic-eraser-notice" class="popup" data-title="Magic Eraser">
+    
+     Magic Eraser is a great tool to quickly remove a background.
+     
+     You can use it to remove any color from your design but keep in mind that this tool was primarily designed to remove background 
+     as it will erase a <span class="bold">very</span> broad range of colors based on the approximate color that you picked.
+     This behaviour is intended so that even with complicated backgrounds where there's colors overlapping or very close to each other,
+     you just simply click on the background somewhere and it will vanish.
+     
+     There is no anti-alias like feature after the clip of the picked color, so your design may look out of place in some cases.
+     
+     Don't show this again
+     
+     Got it!
+     
+     
+  
+  </div>
+  
+  
+  
+  
+  
+    </div>
+  </div>
+</div>
+
+<div id="colorPickerMouseTail"><div class="helper"></div></div>
+<div id="cookieNotice"></div>
+<noscript>
+  <div id="noScript" class="noselect"><div>
+    <p class="title bold">JavaScript seems to be disabled.</p>
+    <p>We are really sorry but this site is heavily dependent on JavaScript in order to work.<br />
+    Please enable JavaScript if you wish to use it.</p>
+    <p>Here are the <a href="https://www.enable-javascript.com/" target="_blank">
+     instructions on how to enable JavaScript in your web browser</a></p>
+  </div>
+</noscript>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="script/js/lib/jquery-3.2.1.min.js" type="text\/javascript"><\/script>')</script>
+    <!--<script type="text/javascript" src="script/js/lib/cookieconsent.min.js"></script>-->
+    <script type="text/javascript" src="script/js/lib/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="script/js/lib/jquery-popupoverlay.min.js"></script>
+    <script type="text/javascript" src="script/js/lib/pica.min.js"></script>
+    <script type="text/javascript" src="script/js/lib/filesaver.min.js"></script>
+    <script type="text/javascript" src="script/js/lib/jszip.min.js"></script>
+    <script type="text/javascript" src="script/js/main.js"></script>
+    <script type="text/javascript" src="script/js/mockup.js"></script>
+    </body>
+</html>

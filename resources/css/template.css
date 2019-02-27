@@ -1,0 +1,357 @@
+.cat-shirt.type-man.view-front #max-print-size { width: 160.03px; height: 213.38px; }
+.cat-shirt.type-woman.view-front #max-print-size { width: 175.40px; height: 233.87px; }
+.cat-shirt.type-man-long-sleeves.view-front #max-print-size { width: 160.94px; height: 214.58px; } 
+.cat-shirt.type-kid.view-front #max-print-size { width: 177.21px; height: 236.28px; }
+.cat-shirt.type-man-tank.view-front #max-print-size { width: 165.46px; height: 220.61px; }
+.cat-shirt.type-man-sleevesless.view-front #max-print-size { width: 156.42px; height: 208.56px; }
+.cat-shirt.type-man-v-neck.view-front #max-print-size { width: 145.57px; height: 194.09px; }
+.cat-polo.type-regular.view-front #max-print-size { width: 174.95px; height: 233.27px; }
+.cat-hoodies.type-nocord.view-front #max-print-size { width: 164.55px; height: 137.13px; }
+.cat-cap.type-classic.view-front #max-print-size { width: 153.11px; height: 114.83px; }
+
+.cat-shirt.type-man.view-back #max-print-size { width: 167.26px; height: 223.02px; }
+.cat-shirt.type-woman.view-back #max-print-size { width: 169.07px; height: 225.43px; }
+.cat-shirt.type-man-long-sleeves.view-back #max-print-size { width: 168.17px; height: 224.23px; } 
+.cat-shirt.type-kid.view-back #max-print-size { width: 185.35px; height: 247.13px; }
+.cat-shirt.type-man-tank.view-back #max-print-size { width: 141.72px; height: 188.96px; }
+.cat-shirt.type-man-sleevesless.view-back #max-print-size { width: 162.74px; height: 217px; }
+.cat-shirt.type-man-v-neck.view-back #max-print-size { width: 153.93px; height: 205.24px; }
+.cat-polo.type-regular.view-back #max-print-size { width: 162.74px; height: 217px; }
+.cat-hoodies.type-nocord.view-back #max-print-size { width: 177.66px; height: 236.89px; }
+.cat-cap.type-classic.view-back #max-print-size { width: 77.35px; height: 58.21px; }
+
+.cat-shirt.type-man.view-front #printable-area { width: 209px; height: 361.66px; left: 151.44px; top: 68.71px;}
+.cat-shirt.type-woman.view-front #printable-area { width: 217px; height: 364.37px; left: 138.78px; top: 86.79px;}
+.cat-shirt.type-man-long-sleeves.view-front #printable-area { width: 210.66px; height: 376.13px; left: 150.54px; top: 71.42px; } 
+.cat-shirt.type-kid.view-front #printable-area { width: 217px; height: 340.86px; left: 150.54px; top: 97.65px; }
+.cat-shirt.type-man-tank.view-front #printable-area { width: 209.76px; height: 309.22px; left: 144.21px; top: 126.89px; }
+.cat-shirt.type-man-sleevesless.view-front #printable-area { width: 203.43px; height: 369.80px; left: 153.25px; top: 84.08px; }
+.cat-shirt.type-man-v-neck.view-front #printable-area { width: 194.39px; height: 314.64px; left: 153.70px; top: 110.30px; }
+.cat-polo.type-regular.view-front #printable-area { width: 215.18px; height: 361.66px; left: 140.59px; top: 85.89px; }
+.cat-hoodies.type-nocord.view-front #printable-area { width: 223.32px; height: 198.91px; left: 134.26px; top: 97.19px; }
+.cat-cap.type-classic.view-front #printable-area { width: 262.5px; height: 115px; left: 119px; top: 154.88px; }
+
+.cat-shirt.type-man.view-back #printable-area { width: 208.86px; height: 416.82px; left: 145.57px; top: 33.45px; }
+.cat-shirt.type-woman.view-back #printable-area { width: 214.28px; height: 430.38px; left: 151.44px; top: 38.87px; }
+.cat-shirt.type-man-long-sleeves.view-back #printable-area { width: 218.80px; height: 421.33px; left: 132.46px; top: 44.61px; } 
+.cat-shirt.type-kid.view-back #printable-area { width: 229.65px; height: 405.06px; left: 121.60px; top: 49.72px; }
+.cat-shirt.type-man-tank.view-back #printable-area { width: 180.83px; height: 382.45px; left: 167.72px; top: 66.31px; }
+.cat-shirt.type-man-sleevesless.view-back #printable-area { width: 207.95px; height: 421.33px; left: 148.28px; top: 35.26px; }
+.cat-shirt.type-man-v-neck.view-back #printable-area { width: 200.72px; height: 396.92px; left: 150.54px; top: 42.49px; }
+.cat-polo.type-regular.view-back #printable-area { width: 217.90px; height: 408.67px; left: 134.26px; top: 47.92px; }
+.cat-hoodies.type-nocord.view-back #printable-area { width: 235.08px; height: 316.45px; left: 121.60px; top: 131.68px; }
+.cat-cap.type-classic.view-back #printable-area { width: 117.5px; height: 58.5px; left: 190.5px; top: 216px; }
+
+/* template file*/
+.cat-shirt.type-man.view-front.color-black { background: url(../img/template/shirt-man/front/black.png); }
+.cat-shirt.type-man.view-front.color-brown { background: url(../img/template/shirt-man/front/brown.png); }
+.cat-shirt.type-man.view-front.color-green { background: url(../img/template/shirt-man/front/green.png); }
+.cat-shirt.type-man.view-front.color-grey { background: url(../img/template/shirt-man/front/grey.png); }
+.cat-shirt.type-man.view-front.color-light-blue { background: url(../img/template/shirt-man/front/light-blue.png); }
+.cat-shirt.type-man.view-front.color-navy-blue { background: url(../img/template/shirt-man/front/navy-blue.png); }
+.cat-shirt.type-man.view-front.color-orange { background: url(../img/template/shirt-man/front/orange.png); }
+.cat-shirt.type-man.view-front.color-pink { background: url(../img/template/shirt-man/front/pink.png); }
+.cat-shirt.type-man.view-front.color-purple { background: url(../img/template/shirt-man/front/purple.png); }
+.cat-shirt.type-man.view-front.color-red { background: url(../img/template/shirt-man/front/red.png); }
+.cat-shirt.type-man.view-front.color-royal-blue { background: url(../img/template/shirt-man/front/royal-blue.png); }
+.cat-shirt.type-man.view-front.color-white { background: url(../img/template/shirt-man/front/white.png); }
+.cat-shirt.type-man.view-front.color-yellow { background: url(../img/template/shirt-man/front/yellow.png); }
+.cat-shirt.type-man.view-back.color-black { background: url(../img/template/shirt-man/back/black.png); }
+.cat-shirt.type-man.view-back.color-brown { background: url(../img/template/shirt-man/back/brown.png); }
+.cat-shirt.type-man.view-back.color-green { background: url(../img/template/shirt-man/back/green.png); }
+.cat-shirt.type-man.view-back.color-grey { background: url(../img/template/shirt-man/back/grey.png); }
+.cat-shirt.type-man.view-back.color-light-blue { background: url(../img/template/shirt-man/back/light-blue.png); }
+.cat-shirt.type-man.view-back.color-navy-blue { background: url(../img/template/shirt-man/back/navy-blue.png); }
+.cat-shirt.type-man.view-back.color-orange { background: url(../img/template/shirt-man/back/orange.png); }
+.cat-shirt.type-man.view-back.color-pink { background: url(../img/template/shirt-man/back/pink.png); }
+.cat-shirt.type-man.view-back.color-purple { background: url(../img/template/shirt-man/back/purple.png); }
+.cat-shirt.type-man.view-back.color-red { background: url(../img/template/shirt-man/back/red.png); }
+.cat-shirt.type-man.view-back.color-royal-blue { background: url(../img/template/shirt-man/back/royal-blue.png); }
+.cat-shirt.type-man.view-back.color-white { background: url(../img/template/shirt-man/back/white.png); }
+.cat-shirt.type-man.view-back.color-yellow { background: url(../img/template/shirt-man/back/yellow.png); }
+
+.cat-shirt.type-woman.view-front.color-black { background: url(../img/template/shirt-woman/front/black.png); }
+.cat-shirt.type-woman.view-front.color-brown { background: url(../img/template/shirt-woman/front/brown.png); }
+.cat-shirt.type-woman.view-front.color-green { background: url(../img/template/shirt-woman/front/green.png); }
+.cat-shirt.type-woman.view-front.color-grey { background: url(../img/template/shirt-woman/front/grey.png); }
+.cat-shirt.type-woman.view-front.color-light-blue { background: url(../img/template/shirt-woman/front/light-blue.png); }
+.cat-shirt.type-woman.view-front.color-navy-blue { background: url(../img/template/shirt-woman/front/navy-blue.png); }
+.cat-shirt.type-woman.view-front.color-orange { background: url(../img/template/shirt-woman/front/orange.png); }
+.cat-shirt.type-woman.view-front.color-pink { background: url(../img/template/shirt-woman/front/pink.png); }
+.cat-shirt.type-woman.view-front.color-purple { background: url(../img/template/shirt-woman/front/purple.png); }
+.cat-shirt.type-woman.view-front.color-red { background: url(../img/template/shirt-woman/front/red.png); }
+.cat-shirt.type-woman.view-front.color-royal-blue { background: url(../img/template/shirt-woman/front/royal-blue.png); }
+.cat-shirt.type-woman.view-front.color-white { background: url(../img/template/shirt-woman/front/white.png); }
+.cat-shirt.type-woman.view-front.color-yellow { background: url(../img/template/shirt-woman/front/yellow.png); }
+.cat-shirt.type-woman.view-back.color-black { background: url(../img/template/shirt-woman/back/black.png); }
+.cat-shirt.type-woman.view-back.color-brown { background: url(../img/template/shirt-woman/back/brown.png); }
+.cat-shirt.type-woman.view-back.color-green { background: url(../img/template/shirt-woman/back/green.png); }
+.cat-shirt.type-woman.view-back.color-grey { background: url(../img/template/shirt-woman/back/grey.png); }
+.cat-shirt.type-woman.view-back.color-light-blue { background: url(../img/template/shirt-woman/back/light-blue.png); }
+.cat-shirt.type-woman.view-back.color-navy-blue { background: url(../img/template/shirt-woman/back/navy-blue.png); }
+.cat-shirt.type-woman.view-back.color-orange { background: url(../img/template/shirt-woman/back/orange.png); }
+.cat-shirt.type-woman.view-back.color-pink { background: url(../img/template/shirt-woman/back/pink.png); }
+.cat-shirt.type-woman.view-back.color-purple { background: url(../img/template/shirt-woman/back/purple.png); }
+.cat-shirt.type-woman.view-back.color-red { background: url(../img/template/shirt-woman/back/red.png); }
+.cat-shirt.type-woman.view-back.color-royal-blue { background: url(../img/template/shirt-woman/back/royal-blue.png); }
+.cat-shirt.type-woman.view-back.color-white { background: url(../img/template/shirt-woman/back/white.png); }
+.cat-shirt.type-woman.view-back.color-yellow { background: url(../img/template/shirt-woman/back/yellow.png); }
+
+.cat-shirt.type-man-long-sleeves.view-front.color-black { background: url(../img/template/shirt-man-longsleeves/front/black.png); } 
+.cat-shirt.type-man-long-sleeves.view-front.color-green { background: url(../img/template/shirt-man-longsleeves/front/green.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-grey { background: url(../img/template/shirt-man-longsleeves/front/grey.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-light-blue { background: url(../img/template/shirt-man-longsleeves/front/light-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-navy-blue { background: url(../img/template/shirt-man-longsleeves/front/navy-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-orange { background: url(../img/template/shirt-man-longsleeves/front/orange.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-purple { background: url(../img/template/shirt-man-longsleeves/front/purple.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-red { background: url(../img/template/shirt-man-longsleeves/front/red.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-royal-blue { background: url(../img/template/shirt-man-longsleeves/front/royal-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-front.color-white { background: url(../img/template/shirt-man-longsleeves/front/white.png); } 
+.cat-shirt.type-man-long-sleeves.view-back.color-black { background: url(../img/template/shirt-man-longsleeves/back/black.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-green { background: url(../img/template/shirt-man-longsleeves/back/green.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-grey { background: url(../img/template/shirt-man-longsleeves/back/grey.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-light-blue { background: url(../img/template/shirt-man-longsleeves/back/light-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-navy-blue { background: url(../img/template/shirt-man-longsleeves/back/navy-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-orange { background: url(../img/template/shirt-man-longsleeves/back/orange.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-purple { background: url(../img/template/shirt-man-longsleeves/back/purple.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-red { background: url(../img/template/shirt-man-longsleeves/back/red.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-royal-blue { background: url(../img/template/shirt-man-longsleeves/back/royal-blue.png); }
+.cat-shirt.type-man-long-sleeves.view-back.color-white { background: url(../img/template/shirt-man-longsleeves/back/white.png); }
+
+.cat-shirt.type-kid.view-front.color-black { background: url(../img/template/shirt-kid/front/black.png); }
+.cat-shirt.type-kid.view-front.color-green { background: url(../img/template/shirt-kid/front/green.png); }
+.cat-shirt.type-kid.view-front.color-grey { background: url(../img/template/shirt-kid/front/grey.png); }
+.cat-shirt.type-kid.view-front.color-light-blue { background: url(../img/template/shirt-kid/front/light-blue.png); }
+.cat-shirt.type-kid.view-front.color-navy-blue { background: url(../img/template/shirt-kid/front/navy-blue.png); }
+.cat-shirt.type-kid.view-front.color-orange { background: url(../img/template/shirt-kid/front/orange.png); }
+.cat-shirt.type-kid.view-front.color-purple { background: url(../img/template/shirt-kid/front/purple.png); }
+.cat-shirt.type-kid.view-front.color-red { background: url(../img/template/shirt-kid/front/red.png); }
+.cat-shirt.type-kid.view-front.color-royal-blue { background: url(../img/template/shirt-kid/front/royal-blue.png); }
+.cat-shirt.type-kid.view-front.color-white { background: url(../img/template/shirt-kid/front/white.png); }
+.cat-shirt.type-kid.view-front.color-yellow { background: url(../img/template/shirt-kid/front/yellow.png); }
+.cat-shirt.type-kid.view-back.color-black { background: url(../img/template/shirt-kid/back/black.png); }
+.cat-shirt.type-kid.view-back.color-green { background: url(../img/template/shirt-kid/back/green.png); }
+.cat-shirt.type-kid.view-back.color-grey { background: url(../img/template/shirt-kid/back/grey.png); }
+.cat-shirt.type-kid.view-back.color-light-blue { background: url(../img/template/shirt-kid/back/light-blue.png); }
+.cat-shirt.type-kid.view-back.color-navy-blue { background: url(../img/template/shirt-kid/back/navy-blue.png); }
+.cat-shirt.type-kid.view-back.color-orange { background: url(../img/template/shirt-kid/back/orange.png); }
+.cat-shirt.type-kid.view-back.color-purple { background: url(../img/template/shirt-kid/back/purple.png); }
+.cat-shirt.type-kid.view-back.color-red { background: url(../img/template/shirt-kid/back/red.png); }
+.cat-shirt.type-kid.view-back.color-royal-blue { background: url(../img/template/shirt-kid/back/royal-blue.png); }
+.cat-shirt.type-kid.view-back.color-white { background: url(../img/template/shirt-kid/back/white.png); }
+.cat-shirt.type-kid.view-back.color-yellow { background: url(../img/template/shirt-kid/back/yellow.png); }
+
+.cat-shirt.type-man-tank.view-front.color-black { background: url(../img/template/shirt-man-tank/front/black.png); }
+.cat-shirt.type-man-tank.view-front.color-grey { background: url(../img/template/shirt-man-tank/front/grey.png); }
+.cat-shirt.type-man-tank.view-front.color-navy-blue { background: url(../img/template/shirt-man-tank/front/navy-blue.png); }
+.cat-shirt.type-man-tank.view-front.color-orange { background: url(../img/template/shirt-man-tank/front/orange.png); }
+.cat-shirt.type-man-tank.view-front.color-purple { background: url(../img/template/shirt-man-tank/front/purple.png); }
+.cat-shirt.type-man-tank.view-front.color-red { background: url(../img/template/shirt-man-tank/front/red.png); }
+.cat-shirt.type-man-tank.view-front.color-royal-blue { background: url(../img/template/shirt-man-tank/front/royal-blue.png); }
+.cat-shirt.type-man-tank.view-front.color-white { background: url(../img/template/shirt-man-tank/front/white.png); }
+.cat-shirt.type-man-tank.view-back.color-black { background: url(../img/template/shirt-man-tank/back/black.png); }
+.cat-shirt.type-man-tank.view-back.color-grey { background: url(../img/template/shirt-man-tank/back/grey.png); }
+.cat-shirt.type-man-tank.view-back.color-navy-blue { background: url(../img/template/shirt-man-tank/back/navy-blue.png); }
+.cat-shirt.type-man-tank.view-back.color-orange { background: url(../img/template/shirt-man-tank/back/orange.png); }
+.cat-shirt.type-man-tank.view-back.color-purple { background: url(../img/template/shirt-man-tank/back/purple.png); }
+.cat-shirt.type-man-tank.view-back.color-red { background: url(../img/template/shirt-man-tank/back/red.png); }
+.cat-shirt.type-man-tank.view-back.color-royal-blue { background: url(../img/template/shirt-man-tank/back/royal-blue.png); }
+.cat-shirt.type-man-tank.view-back.color-white { background: url(../img/template/shirt-man-tank/back/white.png); }
+
+.cat-shirt.type-man-sleevesless.view-front.color-black { background: url(../img/template/shirt-man-sleevesless/front/black.png); }
+.cat-shirt.type-man-sleevesless.view-front.color-grey { background: url(../img/template/shirt-man-sleevesless/front/grey.png); }
+.cat-shirt.type-man-sleevesless.view-front.color-navy-blue { background: url(../img/template/shirt-man-sleevesless/front/navy-blue.png); }
+.cat-shirt.type-man-sleevesless.view-front.color-red { background: url(../img/template/shirt-man-sleevesless/front/red.png); }
+.cat-shirt.type-man-sleevesless.view-front.color-royal-blue { background: url(../img/template/shirt-man-sleevesless/front/royal-blue.png); }
+.cat-shirt.type-man-sleevesless.view-front.color-white { background: url(../img/template/shirt-man-sleevesless/front/white.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-black { background: url(../img/template/shirt-man-sleevesless/back/black.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-grey { background: url(../img/template/shirt-man-sleevesless/back/grey.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-navy-blue { background: url(../img/template/shirt-man-sleevesless/back/navy-blue.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-red { background: url(../img/template/shirt-man-sleevesless/back/red.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-royal-blue { background: url(../img/template/shirt-man-sleevesless/back/royal-blue.png); }
+.cat-shirt.type-man-sleevesless.view-back.color-white { background: url(../img/template/shirt-man-sleevesless/back/white.png); }
+
+.cat-shirt.type-man-v-neck.view-front.color-black { background: url(../img/template/shirt-man-vneck/front/black.png); }
+.cat-shirt.type-man-v-neck.view-front.color-grey { background: url(../img/template/shirt-man-vneck/front/grey.png); }
+.cat-shirt.type-man-v-neck.view-front.color-navy-blue { background: url(../img/template/shirt-man-vneck/front/navy-blue.png); }
+.cat-shirt.type-man-v-neck.view-front.color-white { background: url(../img/template/shirt-man-vneck/front/white.png); }
+.cat-shirt.type-man-v-neck.view-back.color-black { background: url(../img/template/shirt-man-vneck/back/black.png); }
+.cat-shirt.type-man-v-neck.view-back.color-grey { background: url(../img/template/shirt-man-vneck/back/grey.png); }
+.cat-shirt.type-man-v-neck.view-back.color-navy-blue { background: url(../img/template/shirt-man-vneck/back/navy-blue.png); }
+.cat-shirt.type-man-v-neck.view-back.color-white { background: url(../img/template/shirt-man-vneck/back/white.png); }
+
+.cat-polo.type-regular.view-front.color-black { background: url(../img/template/polo/front/black.png); }
+.cat-polo.type-regular.view-front.color-grey { background: url(../img/template/polo/front/grey.png); }
+.cat-polo.type-regular.view-front.color-navy-blue { background: url(../img/template/polo/front/navy-blue.png); }
+.cat-polo.type-regular.view-front.color-red { background: url(../img/template/polo/front/red.png); }
+.cat-polo.type-regular.view-front.color-royal-blue { background: url(../img/template/polo/front/royal-blue.png); }
+.cat-polo.type-regular.view-front.color-white { background: url(../img/template/polo/front/white.png); }
+.cat-polo.type-regular.view-back.color-black { background: url(../img/template/polo/back/black.png); }
+.cat-polo.type-regular.view-back.color-grey { background: url(../img/template/polo/back/grey.png); }
+.cat-polo.type-regular.view-back.color-navy-blue { background: url(../img/template/polo/back/navy-blue.png); }
+.cat-polo.type-regular.view-back.color-red { background: url(../img/template/polo/front/red.png); }
+.cat-polo.type-regular.view-back.color-royal-blue { background: url(../img/template/polo/front/royal-blue.png); }
+.cat-polo.type-regular.view-back.color-white { background: url(../img/template/polo/back/white.png); }
+
+.cat-hoodies.type-nocord.view-front.color-black { background: url(../img/template/hoodies-nocord/front/black.png); }
+.cat-hoodies.type-nocord.view-front.color-brown { background: url(../img/template/hoodies-nocord/front/brown.png); }
+.cat-hoodies.type-nocord.view-front.color-green { background: url(../img/template/hoodies-nocord/front/green.png); }
+.cat-hoodies.type-nocord.view-front.color-grey { background: url(../img/template/hoodies-nocord/front/grey.png); }
+.cat-hoodies.type-nocord.view-front.color-light-blue { background: url(../img/template/hoodies-nocord/front/light-blue.png); }
+.cat-hoodies.type-nocord.view-front.color-navy-blue { background: url(../img/template/hoodies-nocord/front/navy-blue.png); }
+.cat-hoodies.type-nocord.view-front.color-orange { background: url(../img/template/hoodies-nocord/front/orange.png); }
+.cat-hoodies.type-nocord.view-front.color-pink { background: url(../img/template/hoodies-nocord/front/pink.png); }
+.cat-hoodies.type-nocord.view-front.color-purple { background: url(../img/template/hoodies-nocord/front/purple.png); }
+.cat-hoodies.type-nocord.view-front.color-red { background: url(../img/template/hoodies-nocord/front/red.png); }
+.cat-hoodies.type-nocord.view-front.color-royal-blue { background: url(../img/template/hoodies-nocord/front/royal-blue.png); }
+.cat-hoodies.type-nocord.view-front.color-white { background: url(../img/template/hoodies-nocord/front/white.png); }
+.cat-hoodies.type-nocord.view-front.color-yellow { background: url(../img/template/hoodies-nocord/front/yellow.png); }
+.cat-hoodies.type-nocord.view-back.color-black { background: url(../img/template/hoodies-nocord/back/black.png); }
+.cat-hoodies.type-nocord.view-back.color-brown { background: url(../img/template/hoodies-nocord/back/brown.png); }
+.cat-hoodies.type-nocord.view-back.color-green { background: url(../img/template/hoodies-nocord/back/green.png); }
+.cat-hoodies.type-nocord.view-back.color-grey { background: url(../img/template/hoodies-nocord/back/grey.png); }
+.cat-hoodies.type-nocord.view-back.color-light-blue { background: url(../img/template/hoodies-nocord/back/light-blue.png); }
+.cat-hoodies.type-nocord.view-back.color-navy-blue { background: url(../img/template/hoodies-nocord/back/navy-blue.png); }
+.cat-hoodies.type-nocord.view-back.color-orange { background: url(../img/template/hoodies-nocord/back/orange.png); }
+.cat-hoodies.type-nocord.view-back.color-pink { background: url(../img/template/hoodies-nocord/back/pink.png); }
+.cat-hoodies.type-nocord.view-back.color-purple { background: url(../img/template/hoodies-nocord/back/purple.png); }
+.cat-hoodies.type-nocord.view-back.color-red { background: url(../img/template/hoodies-nocord/back/red.png); }
+.cat-hoodies.type-nocord.view-back.color-royal-blue { background: url(../img/template/hoodies-nocord/back/royal-blue.png); }
+.cat-hoodies.type-nocord.view-back.color-white { background: url(../img/template/hoodies-nocord/back/white.png); }
+.cat-hoodies.type-nocord.view-back.color-yellow { background: url(../img/template/hoodies-nocord/back/yellow.png); }
+
+.cat-cap.type-classic.view-front.color-black { background: url(../img/template/cap/front/black.png); }
+.cat-cap.type-classic.view-front.color-brown { background: url(../img/template/cap/front/brown.png); }
+.cat-cap.type-classic.view-front.color-green { background: url(../img/template/cap/front/green.png); } 
+.cat-cap.type-classic.view-front.color-light-blue { background: url(../img/template/cap/front/light-blue.png); }
+.cat-cap.type-classic.view-front.color-navy-blue { background: url(../img/template/cap/front/navy-blue.png); }
+.cat-cap.type-classic.view-front.color-pink { background: url(../img/template/cap/front/pink.png); }
+.cat-cap.type-classic.view-front.color-white { background: url(../img/template/cap/front/white.png); }
+.cat-cap.type-classic.view-back.color-black { background: url(../img/template/cap/back/black.png); }
+.cat-cap.type-classic.view-back.color-brown { background: url(../img/template/cap/back/brown.png); }
+.cat-cap.type-classic.view-back.color-green { background: url(../img/template/cap/back/green.png); }
+.cat-cap.type-classic.view-back.color-light-blue { background: url(../img/template/cap/back/light-blue.png); }
+.cat-cap.type-classic.view-back.color-navy-blue { background: url(../img/template/cap/back/navy-blue.png); }
+.cat-cap.type-classic.view-back.color-pink { background: url(../img/template/cap/back/pink.png); }
+.cat-cap.type-classic.view-back.color-white { background: url(../img/template/cap/back/white.png); }
+
+/* color missing */
+#template.cat-shirt.type-man-long-sleeves + #color-wheel #color-selection .color-box.pink,
+#template.cat-shirt.type-man-long-sleeves + #color-wheel #color-selection .color-box.brown,
+#template.cat-shirt.type-man-long-sleeves + #color-wheel #color-selection .color-box.yellow,
+#template.cat-shirt.type-kid + #color-wheel #color-selection .color-box.brown,
+#template.cat-shirt.type-man-tank + #color-wheel #color-selection .color-box.brown,
+#template.cat-shirt.type-man-tank + #color-wheel #color-selection .color-box.green,
+#template.cat-shirt.type-man-tank + #color-wheel #color-selection .color-box.light-blue,
+#template.cat-shirt.type-man-tank + #color-wheel #color-selection .color-box.yellow,
+#template.cat-shirt.type-man-tank + #color-wheel #color-selection .color-box.pink,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.brown,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.green,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.light-blue,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.orange,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.pink,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.purple,
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.yellow, 
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.brown,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.green,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.light-blue,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.orange,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.pink,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.purple,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.red,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.royal-blue,
+#template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.yellow,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.brown,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.green,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.light-blue,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.orange,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.pink,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.purple,
+#template.cat-polo.type-regular + #color-wheel #color-selection .color-box.yellow,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.grey,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.orange,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.purple,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.red,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.royal-blue,
+#template.cat-cap.type-classic + #color-wheel #color-selection .color-box.yellow
+{ display: none; }
+
+.cat-shirt.type-man-long-sleeves.color-pink:before,
+.cat-shirt.type-man-long-sleeves.color-brown:before,
+.cat-shirt.type-man-long-sleeves.color-yellow:before,
+.cat-shirt.type-kid.color-brown:before,
+.cat-shirt.type-man-tank.color-brown:before,
+.cat-shirt.type-man-tank.color-green:before,
+.cat-shirt.type-man-tank.color-light-blue:before,
+.cat-shirt.type-man-tank.color-yellow:before,
+.cat-shirt.type-man-tank.color-pink:before,
+.cat-shirt.type-man-sleevesless.color-brown:before,
+.cat-shirt.type-man-sleevesless.color-green:before,
+.cat-shirt.type-man-sleevesless.color-light-blue:before,
+.cat-shirt.type-man-sleevesless.color-orange:before,
+.cat-shirt.type-man-sleevesless.color-pink:before,
+.cat-shirt.type-man-sleevesless.color-purple:before,
+.cat-shirt.type-man-sleevesless.color-yellow:before,
+.cat-shirt.type-man-v-neck.color-brown:before,
+.cat-shirt.type-man-v-neck.color-green:before,
+.cat-shirt.type-man-v-neck.color-light-blue:before,
+.cat-shirt.type-man-v-neck.color-orange:before,
+.cat-shirt.type-man-v-neck.color-pink:before,
+.cat-shirt.type-man-v-neck.color-purple:before,
+.cat-shirt.type-man-v-neck.color-red:before,
+.cat-shirt.type-man-v-neck.color-royal-blue:before,
+.cat-shirt.type-man-v-neck.color-yellow:before,
+.cat-polo.type-regular.color-brown:before,
+.cat-polo.type-regular.color-green:before,
+.cat-polo.type-regular.color-light-blue:before,
+.cat-polo.type-regular.color-orange:before,
+.cat-polo.type-regular.color-pink:before,
+.cat-polo.type-regular.color-purple:before,
+.cat-polo.type-regular.color-yellow:before,
+.cat-cap.type-classic.color-grey:before,
+.cat-cap.type-classic.color-orange:before,
+.cat-cap.type-classic.color-purple:before,
+.cat-cap.type-classic.color-red:before,
+.cat-cap.type-classic.color-royal-blue:before,
+.cat-cap.type-classic.color-yellow:before
+{ content:''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%; height: 100%; background: #fff; z-index: 1;}
+
+.cat-shirt.type-man-long-sleeves.color-pink:after,
+.cat-shirt.type-man-long-sleeves.color-brown:after,
+.cat-shirt.type-man-long-sleeves.color-yellow:after,
+.cat-shirt.type-kid.color-brown:after,
+.cat-shirt.type-man-tank.color-brown:after,
+.cat-shirt.type-man-tank.color-green:after,
+.cat-shirt.type-man-tank.color-light-blue:after,
+.cat-shirt.type-man-tank.color-yellow:after,
+.cat-shirt.type-man-tank.color-pink:after,
+.cat-shirt.type-man-sleevesless.color-brown:after,
+.cat-shirt.type-man-sleevesless.color-green:after,
+.cat-shirt.type-man-sleevesless.color-light-blue:after,
+.cat-shirt.type-man-sleevesless.color-orange:after,
+.cat-shirt.type-man-sleevesless.color-pink:after,
+.cat-shirt.type-man-sleevesless.color-purple:after,
+.cat-shirt.type-man-sleevesless.color-yellow:after,
+.cat-shirt.type-man-v-neck.color-brown:after,
+.cat-shirt.type-man-v-neck.color-green:after,
+.cat-shirt.type-man-v-neck.color-light-blue:after,
+.cat-shirt.type-man-v-neck.color-orange:after,
+.cat-shirt.type-man-v-neck.color-pink:after,
+.cat-shirt.type-man-v-neck.color-purple:after,
+.cat-shirt.type-man-v-neck.color-red:after,
+.cat-shirt.type-man-v-neck.color-royal-blue:after,
+.cat-shirt.type-man-v-neck.color-yellow:after,
+.cat-polo.type-regular.color-brown:after,
+.cat-polo.type-regular.color-green:after,
+.cat-polo.type-regular.color-light-blue:after,
+.cat-polo.type-regular.color-orange:after,
+.cat-polo.type-regular.color-pink:after,
+.cat-polo.type-regular.color-purple:after,
+.cat-polo.type-regular.color-yellow:after,
+.cat-cap.type-classic.color-grey:after,
+.cat-cap.type-classic.color-orange:after,
+.cat-cap.type-classic.color-purple:after,
+.cat-cap.type-classic.color-red:after,
+.cat-cap.type-classic.color-royal-blue:after,
+.cat-cap.type-classic.color-yellow:after
+{ content:attr(data-not-found); color: #0f1010; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; max-width: 250px; z-index: 2; white-space: pre;}
